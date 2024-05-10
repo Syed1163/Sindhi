@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>New Address</title>
+</head>
+<body>
+    <form action="{{url_for('new_prod')}}" method="POST">
+        <h3>Product Information</h3>
+        Name<br>
+        <input type="text" name="name"/>
+        <br/>
+        Description<br>
+        <textarea name="description"></textarea><br>
+        Supplier<br>
+        <input type="text" name="supplier"/><br>
+        Price<br>
+        <input type="text" name="price"/><br>
+        <input type="submit" value="submit"/><br>
+    </form>
+</body>
+</html>
